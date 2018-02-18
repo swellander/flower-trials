@@ -4,15 +4,17 @@
   "description": "verifies legal sudoku boards",
   "main": "index.js",
   "scripts": {
-    "test": ""
+    "test": "karma start karma.conf.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "browserify": "^15.0.0",
     "gulp": "^3.9.1",
+    "gulp-jshint": "^2.1.0",
     "jasmine": "^2.9.0",
     "jasmine-core": "^2.9.1",
+    "jshint": "^2.9.5",
     "karma": "^2.0.0",
     "karma-browserify": "^5.1.3",
     "karma-chrome-launcher": "^2.2.0",
